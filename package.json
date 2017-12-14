@@ -1,0 +1,26 @@
+{
+  "name": "sgscript",
+  "version": "0.1.0",
+  "description": "Script de test",
+  "main": "dist/src/sgscript.js",
+  "scripts": {
+    "build": "babel src/sgscript.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysrock18/sgscript.git"
+  },
+  "keywords": [
+    "sgscript",
+    "javascript"
+  ],
+  "author": "Simon Gonzalez <gonzalezsimon18@gmail.com> (https://twitter.com/rockersgz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sysrock18/sgscript/issues"
+  },
+  "homepage": "https://github.com/sysrock18/sgscript#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
+}
