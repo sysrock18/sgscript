@@ -1,7 +1,6 @@
-export default function sum(...nums) {
-  length = nums.length
+export default function sgscript(...nums) {
   let res = 0
-  for (let i = 0; i < length; i++) {
+  for (let i in nums) {
     res += nums[i]
   }
   return res

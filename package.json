@@ -4,7 +4,8 @@
   "description": "Script de test",
   "main": "dist/src/sgscript.js",
   "scripts": {
-    "build": "babel src/sgscript.js -d dist"
+    "build": "babel src/sgscript.js -d dist",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   "homepage": "https://github.com/sysrock18/sgscript#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
